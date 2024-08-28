@@ -4,20 +4,23 @@
 #Assignment: Lab 1 
 
 def main():
-  #print("First Program")
+  print("First Program")
   #Say hello
-  print("Hello, how are you?")
+  print("Hello")
   #Ask for the user's name
-  name = input("What is your name? ")
+  name = input("Enter your name: ")
+    
   #Use the user's name in the program.
-  print("Good to meet you", name)
+  print("Nice to meet you", name)
   #Ask the user for their age.
-  age = input("How old are you? ")
+  age = input("Enter your age: ")
+  age = int(age) #convert from words to number
+
   #Tell the user what year they were born in.
-  age = int(age)
-  birthYear = 2024 - age  
+  born = 2024 - age
+   
   #Assume that they have not had their birthday yet this year.
-  print(birthYear)
+  print("You were born in", born) 
 
 #Call the main function if this is the file being run.
 if __name__ == '__main__':
