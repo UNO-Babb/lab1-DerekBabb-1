@@ -6,12 +6,14 @@
 def main():
   print("First Program")
   #Say hello
-  print("Hello")
+  print("I am breaking it!")
+  print("Hello") 
   #Ask for the user's name
   name = input("Enter your name: ")
     
   #Use the user's name in the program.
   print("Nice to meet you", name)
+  
   #Ask the user for their age.
   age = input("Enter your age: ")
   age = int(age) #convert from words to number
